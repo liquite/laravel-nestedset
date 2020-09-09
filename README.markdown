@@ -1,20 +1,12 @@
-[![Build Status](https://travis-ci.org/lazychaser/laravel-nestedset.svg?branch=master)](https://travis-ci.org/lazychaser/laravel-nestedset)
-[![Total Downloads](https://poser.pugx.org/kalnoy/nestedset/downloads.svg)](https://packagist.org/packages/kalnoy/nestedset)
-[![Latest Stable Version](https://poser.pugx.org/kalnoy/nestedset/v/stable.svg)](https://packagist.org/packages/kalnoy/nestedset)
-[![Latest Unstable Version](https://poser.pugx.org/kalnoy/nestedset/v/unstable.svg)](https://packagist.org/packages/kalnoy/nestedset)
-[![License](https://poser.pugx.org/kalnoy/nestedset/license.svg)](https://packagist.org/packages/kalnoy/nestedset)
+# Liquite Laravel Nestedset
 
-This is a Laravel 4-8 package for working with trees in relational databases.
+This is a Laravel 8 package for working with trees in relational databases.
+Fork of [https://github.com/lazychaser/laravel-nestedset]
 
-*   **Laravel 5.7, 5.8, 6.0, 7.0, 8.0** is supported since v5
-*   **Laravel 5.5, 5.6** is supported since v4.3
-*   **Laravel 5.2, 5.3, 5.4** is supported since v4
-*   **Laravel 5.1** is supported in v3
-*   **Laravel 4** is supported in v2
+*   **Laravel 8.0** support
+*   **Laravel 7.0** supported until further notice
 
-Although this project is completely free for use, I appreciate any support!
-
--   __[Donate via PayPal](https://www.paypal.me/lazychaser)__
+For support of older laravel versions please use the original repository [https://github.com/lazychaser/laravel-nestedset].
 
 __Contents:__
 
@@ -729,6 +721,7 @@ License
 =======
 
 Copyright (c) 2017 Alexander Kalnoy
+Copyright (c) 2020 Patrick Hayder
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
