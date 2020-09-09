@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\Nestedset;
+namespace Liquite\Nestedset;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Model;
@@ -17,7 +17,8 @@ class DescendantsRelation extends BaseRelation
     {
         if ( ! static::$constraints) return;
 
-        $this->query->whereDescendantOf($this->parent);
+        $this->query->whereDescendantOf($this->parent)
+        ->applyNestedSetScope();
     }
 
     /**

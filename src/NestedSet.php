@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\Nestedset;
+namespace Liquite\Nestedset;
 
 use Illuminate\Database\Schema\Blueprint;
 
