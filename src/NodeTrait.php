@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\Nestedset;
+namespace Liquite\Nestedset;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -240,6 +240,16 @@ trait NodeTrait
     {
         return $this->hasMany(get_class($this), $this->getParentIdName())
             ->setModel($this);
+    }
+
+    /**
+     * Children with parent associated with it.
+     * @return mixed
+     */
+    public function childrenAndSelf(){
+        $childrenAndSelf = $this->children;
+        $childrenAndSelf->prepend($this);
+        return $childrenAndSelf;
     }
 
     /**
