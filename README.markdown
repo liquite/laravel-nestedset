@@ -1,12 +1,12 @@
 # Liquite Laravel Nestedset
 
 This is a Laravel 8 package for working with trees in relational databases.
-Fork of [https://github.com/lazychaser/laravel-nestedset]
+Fork of [lazychaser/laravel-nestedset](https://github.com/lazychaser/laravel-nestedset)
 
 *   **Laravel 8.0** support
 *   **Laravel 7.0** supported until further notice
 
-For support of older laravel versions please use the original repository [https://github.com/lazychaser/laravel-nestedset].
+For support of older laravel versions please use the original repository [lazychaser/laravel-nestedset](https://github.com/lazychaser/laravel-nestedset).
 
 __Contents:__
 
